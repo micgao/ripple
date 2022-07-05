@@ -1,3 +1,134 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL       = "https://ripplestud.io/"
+languageCode  = "en-us"
+title         = "Ripple Studio | Recording studio serving the greater Ottawa region"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Listen"
+    url     = "music"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Services"
+    url     = "services"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Ripple Studio | Recording studio serving the greater Ottawa region"
+  author = "Ripple Studio"
+  # Google Analitycs
+  # googleAnalitycsID = "Your ID"
+  # Will probably use Plausible
+  # We're using formspree.io for form handling, paste your formspree url below
+  # Will probably use Netlify forms
+  formspreeFormUrl = "https://formspree.io/myykjpje"
+
+  # Contact Form
+  # Fields and form provider both still tbd, so leaving this part as is for now
+  [params.contactForm]
+    placeholder_first_name        = "First name"
+    placeholder_last_name         = "Last name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Project type"
+    placeholder_about_the_project = "About the project"
+    send_message                  = "Send message"
+
+    [[params.contactForm.projectType]]
+      value = "rec"
+      title  = "Recording"
+    [[params.contactForm.projectType]]
+      value = "mm"
+      title  = "Mixing/Mastering"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "Audio engineering with soul"
+    tagline               = "SHAPING YOUR IDEAS INTO ENGAGING STORIES"
+    primary_button        = "Listen"
+    primary_button_url    = "music"
+    secondary_button      = "Get in touch"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "Past projects"
+    subtitle  = "Crafting experiences and helping you make the world sound better"
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "Let's work together"
+    primary_button      = "Get in touch"
+    primary_button_url  = "contact"
+    secondary_button    = "Not convinced"
+    secondary_button_url = "music"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact"
+      address = "1475 Saint-Charles Ouest, Longueuil, QC"
+      phone   = "514-577-5588"
+      email   = "micgao@ripplestud.io"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Listen"
+          url  = "music"
+        [[params.footer.sitemap.link]]
+          name = "Services"
+          url  = "services"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social media"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Blog"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "SPCA"
+          url  = "#"
+      # Footer Service
+      [params.footer.service]
+        title       = "We help musicians"
+        description = "turn ideas into reality"
