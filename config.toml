@@ -4,11 +4,6 @@ title         = "Ripple Studio | Recording Studio"
 theme         = ["roxo", "plausible-hugo"]
 summarylength = 25
 
-# Plausible submodule
-[module]
-[[module.imports]]
-  path = "github.com/divinerites/plausible-hugo"
-
 # Plausible Analytics
 [params.plausible]
   enable = true
