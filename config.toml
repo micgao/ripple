@@ -73,7 +73,7 @@ summarylength = 25
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
     heading               = "AUDIO ENGINEERING WITH SOUL"
-    tagline               = "Shaping your vision into an engaging story"
+    tagline               = "Translating your vision into an engaging story"
     primary_button        = "Listen"
     primary_button_url    = "music"
     secondary_button      = "Get in touch"
@@ -133,4 +133,4 @@ summarylength = 25
       # Footer Service
       [params.footer.service]
         title       = "A word on privacy:"
-        description = "We run a recording studio that is, above all, a passion project. We do not collect any personal data from this website's visitors nor do we use any cookies. There are thus no Privacy policy page or any cookie banner asking for your consent. Only the bare minimum metrics are kept track of, and by clicking the Analytics link on the left, you can get a full insight into exactly what we see. Right above, you will also find the full source code used to build this website. Commercial solutions are avoided as much as possible in favor of open source alternatives."
+        description = "We do not collect any personal data or other personally identifiable information, and there are no cookies on this website. The stats collected serve only to identify trends, and for the sake of transparency, they are fully open and can be accessed by clicking the Analytics link on your left."
