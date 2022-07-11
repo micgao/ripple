@@ -4,6 +4,19 @@ title         = "Ripple Studio | Recording Studio"
 theme         = "roxo"
 summarylength = 25
 
+# Plausible Analytics as a module
+[module]
+  [[module.imports]]
+    path = "github.com/divinerites/plausible-hugo"
+
+# Plausible Analytics
+[params.plausible]
+  proxy_netlify = true
+  dash_link = "https://plausible.io/share/yourdomain?auth=AZE1234RTYUOP67"
+  dash_theme = "dark"
+  dash_bgcolor = "transparent"
+  public_dashboard = true
+
 # Site Menus
 [menu]
   # Navbar Menus
@@ -67,8 +80,8 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "Shaping your idea into an engaging story"
-    tagline               = "AUDIO ENGINEERING WITH SOUL"
+    heading               = "AUDIO ENGINEERING WITH SOUL"
+    tagline               = "Shaping your vision into an engaging story"
     primary_button        = "Listen"
     primary_button_url    = "music"
     secondary_button      = "Get in touch"
@@ -92,7 +105,7 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact"
-      address = "1475 St-Charles Ouest, Longueuil, QC"
+      address = ""
       phone   = "514-577-5588"
       email   = "info@ripplestud.io"
       # Footer Sitemap
@@ -112,20 +125,20 @@ summarylength = 25
           url  = "contact"
       # Footer Social Media
       [params.footer.social]
-        title   = "Social Media"
+        title   = "Social media"
         [[params.footer.social.link]]
           name = "Instagram"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Facebook"
           url  = "#"
         [[params.footer.social.link]]
           name = "SPCA"
           url  = "#"
         [[params.footer.social.link]]
           name = "Source code"
-          url  = "#"
+          url  = "https://gitlab.com/micgao/ripple"
+        [[params.footer.social.link]]
+          name = "Analytics"
+          url  = "https://plausible.io/ripplestud.io"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "A word on privacy:"
+        description = "We run a recording studio that is, above all, a passion project. We do not collect any personal data from this website's visitors nor do we use any cookies. There are thus no Privacy policy page or any cookie banner asking for your consent. Only the bare minimum metrics are kept track of, and by clicking the Analytics link on the left, you can get a full insight into exactly what we see. Right above, you will also find the full source code used to build this website. Commercial solutions are avoided as much as possible in favor of open source alternatives."
