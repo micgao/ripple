@@ -6,8 +6,8 @@ summarylength = 25
 
 # Plausible Analytics as a module
 [module]
-  [[module.imports]]
-    path = "github.com/divinerites/plausible-hugo"
+[[module.imports]]
+  path = "github.com/divinerites/plausible-hugo"
 
 # Plausible Analytics
 [params.plausible]
