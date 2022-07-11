@@ -1,6 +1,6 @@
 baseURL       = "https://ripplestud.io/"
-languageCode  = "en-us"
-title         = "Ripple Studio | Recording studio serving the greater Ottawa region"
+languageCode  = "en-ca"
+title         = "Ripple Studio | Recording Studio"
 theme         = "roxo"
 summarylength = 25
 
@@ -20,8 +20,8 @@ summarylength = 25
     url     = "music"
     weight  = 3
   [[menu.nav]]
-    name    = "Services"
-    url     = "services"
+    name    = "Blog"
+    url     = "blog"
     weight  = 4
   [[menu.nav]]
     name    = "Get in touch"
@@ -30,20 +30,17 @@ summarylength = 25
 
 # Site Params
 [params]
-  logo = "images/ripple_logo_no_bg.png"
+  logo = "images/logo.png"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Ripple Studio | Recording studio serving the greater Ottawa region"
+  description = "Ripple Studio | Recording studio serving the Greater Ottawa region"
   author = "Ripple Studio"
   # Google Analitycs
   # googleAnalitycsID = "Your ID"
-  # Will probably use Plausible
   # We're using formspree.io for form handling, paste your formspree url below
-  # Will probably use Netlify forms
-  formspreeFormUrl = "https://formspree.io/myykjpje"
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
 
   # Contact Form
-  # Fields and form provider both still tbd, so leaving this part as is for now
   [params.contactForm]
     placeholder_first_name        = "First name"
     placeholder_last_name         = "Last name"
@@ -70,8 +67,8 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "Audio engineering with soul"
-    tagline               = "SHAPING YOUR IDEAS INTO ENGAGING STORIES"
+    heading               = "Shaping your idea into an engaging story"
+    tagline               = "AUDIO ENGINEERING WITH SOUL"
     primary_button        = "Listen"
     primary_button_url    = "music"
     secondary_button      = "Get in touch"
@@ -79,14 +76,14 @@ summarylength = 25
 
   [params.portfolio]
     enable    = true
-    title     = "Past projects"
-    subtitle  = "Crafting experiences and making the world sound better"
+    title     = "LISTEN"
+    subtitle  = "Making the world sound better one record at a time"
 
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "Let's work together"
-    primary_button      = "Get in touch"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Contact"
     primary_button_url  = "contact"
     secondary_button    = "Not convinced"
     secondary_button_url = "music"
@@ -95,27 +92,27 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact"
-      address = "1475 Saint-Charles Ouest, Longueuil, QC"
+      address = "1475 St-Charles Ouest, Longueuil, QC"
       phone   = "514-577-5588"
-      email   = "micgao@ripplestud.io"
+      email   = "info@ripplestud.io"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About"
+          name = "About Company"
           url  = "about"
         [[params.footer.sitemap.link]]
           name = "Listen"
           url  = "music"
         [[params.footer.sitemap.link]]
-          name = "Services"
-          url  = "services"
+          name = "Blog"
+          url  = "blog"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
       # Footer Social Media
       [params.footer.social]
-        title   = "Social media"
+        title   = "Social Media"
         [[params.footer.social.link]]
           name = "Instagram"
           url  = "#"
@@ -123,12 +120,12 @@ summarylength = 25
           name = "Facebook"
           url  = "#"
         [[params.footer.social.link]]
-          name = "Blog"
+          name = "SPCA"
           url  = "#"
         [[params.footer.social.link]]
-          name = "SPCA"
+          name = "Source code"
           url  = "#"
       # Footer Service
       [params.footer.service]
-        title       = "We help musicians"
-        description = "turn ideas into reality"
+        title       = "We help brands:"
+        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
