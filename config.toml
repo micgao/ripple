@@ -80,7 +80,7 @@ summarylength = 25
   [params.portfolio]
     enable    = true
     title     = "Past projects"
-    subtitle  = "Crafting experiences and helping you make the world sound better"
+    subtitle  = "Crafting experiences and making the world sound better"
 
   [params.call_to_action]
     enable              = true
