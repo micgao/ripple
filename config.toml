@@ -1,24 +1,24 @@
 baseURL       = "https://ripplestud.io/"
 languageCode  = "en-ca"
 title         = "Ripple Studio | Recording Studio"
-theme         = "roxo"
+theme         = ["roxo", "plausible-hugo"]
 summarylength = 25
 
-# Plausible Analytics as a module
+# Plausible submodule
 [module]
 [[module.imports]]
-  disable = false
-  ignoreConfig = false
-  ignoreImports = false
-  path = "https://github.com/divinerites/plausible-hugo"
+  path = "github.com/divinerites/plausible-hugo"
 
 # Plausible Analytics
 [params.plausible]
+  enable = true
+  domain = "ripplestud.io"
   proxy_netlify = true
   dash_link = "https://plausible.io/share/yourdomain?auth=AZE1234RTYUOP67"
   dash_theme = "dark"
   dash_bgcolor = "transparent"
   public_dashboard = true
+  gitstar = false
 
 # Site Menus
 [menu]

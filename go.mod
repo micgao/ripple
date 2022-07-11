@@ -1,3 +1,3 @@
-module https://github.com/divinerites/plausible-hugo
+module github.com/divinerites/plausible-hugo
 
 go 1.18
