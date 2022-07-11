@@ -4,6 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: data/team.yml
+  label: Team
+  match: "**/*"
+- type: document
+  path: data/counter.yml
+  label: Counter
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
