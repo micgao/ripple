@@ -1,4 +1,6 @@
 [submodule "themes/roxo"]
 	path = themes/roxo
+	url = https://github.com/StaticMania/roxo-hugo
 [submodule "themes/plausible-hugo"]
 	path = themes/plausible-hug
+	url = https://github.com/divinerites/plausible-hugo
