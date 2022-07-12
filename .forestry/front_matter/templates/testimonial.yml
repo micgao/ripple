@@ -11,19 +11,3 @@ fields:
 - type: text
   name: subtitle
   label: subtitle
-- type: field_group_list
-  name: testimonial_item
-  label: testimonial_item
-  fields:
-  - type: file
-    name: thumb
-    label: thumb
-  - type: text
-    name: name
-    label: name
-  - type: text
-    name: company_position
-    label: company_position
-  - type: textarea
-    name: quote
-    label: quote
