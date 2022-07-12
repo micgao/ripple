@@ -2,5 +2,5 @@
 	path = themes/roxo
 	url = https://github.com/StaticMania/roxo-hugo
 [submodule "themes/plausible-hugo"]
-	path = themes/plausible-hug
+	path = themes/plausible-hugo
 	url = https://github.com/divinerites/plausible-hugo
