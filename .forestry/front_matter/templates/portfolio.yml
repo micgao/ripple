@@ -20,3 +20,5 @@ fields:
 - type: image_gallery
   name: project_images
   label: project_images
+pages:
+- content/music/past-projects.md
