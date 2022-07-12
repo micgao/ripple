@@ -7,6 +7,6 @@ title = "Past projects"
 type = ""
 
 +++
-Past projects with some exceptional artists
+Past projects featuring some exceptional artists
 
-I extend my gratitude to them for allowing me to use their music here
+And an extra thanks for allowing me to use their music here
