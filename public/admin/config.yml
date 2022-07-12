@@ -1,0 +1,68 @@
+backend:
+  name: gitlab
+  branch: main
+  media_folder: "images"
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "about" # Used in routes, e.g., /admin/collections/blog
+    label: "About" # Used in the UI
+    folder: "content/about" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Heading", name: "heading", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Expertise section title", name: "expertise_title", widget: "string"}
+      - {label: "Fields of expertise", name: "expertise_sectors", widget: "string"}
+
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Feature image", name: "feature_image", widget: "image"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "contact" # Used in routes, e.g., /admin/collections/blog
+    label: "Contact" # Used in the UI
+    folder: "content/contact" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Heading", name: "heading", widget: "string"}
+      - {label: "Form heading", name: "form_heading", widget: "string"}
+
+  - name: "music" # Used in routes, e.g., /admin/collections/blog
+    label: "Music" # Used in the UI
+    folder: "content/music" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "services" # Used in routes, e.g., /admin/collections/blog
+    label: "Services" # Used in the UI
+    folder: "content/services" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Feature image", name: "feature_image", widget: "image"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

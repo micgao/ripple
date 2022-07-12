@@ -4,6 +4,8 @@
   <meta charset="utf-8" />
   <title>Past projects</title>
 
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -55,7 +57,18 @@
   
   <link rel="shortcut icon" href="https://ripplestud.io/images/favicon.png" type="image/x-icon" />
   <link rel="icon" href="https://ripplestud.io/images/favicon.ico" type="image/x-icon" />
-</head><body><nav class="navbar navbar-expand-lg site-navigation">
+</head><body>
+        <script>
+          if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+              if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                  document.location.href = "/admin/";
+                });
+              }
+            });
+          }
+        </script><nav class="navbar navbar-expand-lg site-navigation">
   <div class="container">
     <a class="navbar-brand" href="https://ripplestud.io/">
       <img src="https://ripplestud.io/images/logo.png" alt="logo" />
