@@ -9,7 +9,7 @@
   <meta name="author" content="{{ . }}">
   {{ end }}
   {{ hugo.Generator }}
-
+  {{ partial "plausible_head.html" . }}
   {{ "<!-- Bootstrap -->" | safeHTML }}
   {{ $bootstrap := resources.Get "css/bootstrap.css" | minify }}
   <link rel="stylesheet" href="{{ $bootstrap.Permalink }}" />

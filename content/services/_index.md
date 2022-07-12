@@ -1,6 +1,10 @@
 ---
-title         : "Services"
-date          : 2019-12-23T20:17:01+06:00
-heading       : "What we do"
-form_heading  : "TELL US ABOUT YOUR PROJECT"
+title: Services
+date: 2022-07-11T02:45:06-04:00
+image: ''
+feature_image: ''
+author: Michael G
+
 ---
+
+For anything outside the scopes of what is written here, do not hesitate to send an inquiry my way,
