@@ -8,6 +8,7 @@ summarylength = 25
 [params.plausible]
   enable = true
   domain = "ripplestud.io"
+  gitstar = false
 
 # Site Menus
 [menu]
