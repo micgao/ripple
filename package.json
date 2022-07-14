@@ -1,0 +1,12 @@
+{
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {}
+  },
+  "dependencies": {
+    "@fontsource/alegreya-sans": "^4.5.8",
+    "@fontsource/source-sans-pro": "^4.5.10"
+  },
+  "name": "ripple",
+  "version": "0.1.0"
+}
