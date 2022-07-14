@@ -9,9 +9,9 @@ name = "javascript"
 enabled = true
 
 [[transformers]]
-name = "standardjs"
+name = "prettier"
 enabled = true
 
 [[transformers]]
-name = "prettier"
+name = "standardjs"
 enabled = true
