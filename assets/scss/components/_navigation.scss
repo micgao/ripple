@@ -1,13 +1,13 @@
 .site-navigation{
   padding: 20px 0;
-  background: $dark-shade0;
+  background: $body-color;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
   transition: all 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   @include desktop{
-    background: $dark-shade0;
+    background: $body-color;
     margin: 10px;
     border-radius: 5px;
     top: 0;

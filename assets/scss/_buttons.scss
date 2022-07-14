@@ -64,7 +64,7 @@
   background: $primary-color;
   color: $white;
   &:hover{
-    background: darken($color: $primary-color, $amount: 10);
+    background: darken($color: $primary-color, $amount: 8);
   }
 }
 
@@ -72,6 +72,6 @@
   background: $secondary-color;
   color: $white;
   &:hover{
-    background: darken($color: $secondary-color, $amount: 10);
+    background: darken($color: $secondary-color, $amount: 16);
   }
 }
