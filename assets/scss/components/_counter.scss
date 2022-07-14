@@ -1,7 +1,7 @@
 .site-counter{
   padding: 85px 0;
-  color: $white;
-  background: $secondary-color;
+  color: $text-color-dark;
+  background: $dark-shade0;
   .section-title{
     margin-bottom: 40px;
   }
@@ -18,7 +18,7 @@
       font-weight: 300;
     }
     &-number{
-      color: $white;
+      color: $text-color-dark;
       font-size: 60px;
       margin-bottom: 0;
       font-weight: 700;
