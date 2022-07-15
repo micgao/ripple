@@ -1,0 +1,14 @@
+enable : true
+heading : "NUMBERS FOR POTENTIAL INVESTORS"
+counter_item:
+  - title: "Missed phone calls"
+    number: "53 +"
+
+  - title: "Unsolicited offers from foreign Web developers"
+    number: "46 +"
+
+  - title: "Hours spent on choosing the fonts for this page"
+    number: "5 +"
+
+  - title: "Total payout from Spotify streams"
+    number: "0,43 $ +"
