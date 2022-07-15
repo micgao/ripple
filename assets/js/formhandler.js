@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function() {
   }
 
   function error() {
-    status.innerHTML = "Oops! An error occurred. Please try again, or feel free to send an email.";
+    status.innerHTML = "Oops! An error occurred. Please try again, or feel free to reach out by email.";
   }
 
   // handle the form submission event

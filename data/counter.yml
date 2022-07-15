@@ -1,14 +1,14 @@
 enable : true
-heading : "THE PROOF IS IN THE PUDDING!"
+heading : "NUMBERS FOR POTENTIAL INVESTORS"
 counter_item: 
-  - title: "Happy Clients"
-    number: "250"
+  - title: "Missed phone calls"
+    number: "53 +"
 
-  - title: "Projects Completed"
-    number: "100"
+  - title: "Unsollicited offers from foreign Web developers"
+    number: "46 +"
 
-  - title: "Cups of coffee"
-    number: "350"
+  - title: "Hours spent on choosing the fonts for this page"
+    number: "5 +"
 
-  - title: "Telephone Talks"
-    number: "775"
+  - title: "Total payout from Spotify streams"
+    number: "0,43 $ +"
