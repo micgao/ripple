@@ -3,16 +3,16 @@ title   : "A SELECTION OF PAST PROJECTS"
 subtitle: "Credit goes to the talented artists involved"
 testimonial_item :
   - name  : "Sample 1"
-    company_position: "Example 1"
+    company_position: "Waiting for artist approval"
     quote : > 
             "Link 1 + Description" 
 
   - name  : "Sample 2"
-    company_position: "Example 2"
+    company_position: "Waiting for artist approval"
     quote : > 
             "Link 2 + Description" 
 
   - name  : "Sample 3"
-    company_position: "Example 3"
+    company_position: "Waiting for artist approval"
     quote : > 
             "Link 3 + Description" 

@@ -1,11 +1,11 @@
 enable : true
 heading : "READY TO DISCUSS A PROJECT?"
-generic_blurb:
+generic_blurb: 
   - title: "Email"
-    text: "info@ripplestud.io"
+    body: "info@ripplestud.io"
 
   - title: "International toll free number (North America)"
-    text: "+1 (877) 710-1557"
+    body: "+1 (877) 710-1557"
 
   - title: "Local canadian number (text or call)"
-    text: "(514) 577-5588"
+    body: "(514) 577-5588"

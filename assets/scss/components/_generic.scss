@@ -14,14 +14,14 @@
       text-align: center;
     }
     &-title{
-      font-size: 20px;
+      font-size: 35px;
       font-weight: 300;
     }
-    &-text{
+    &-body{
       color: $text-color-dark;
-      font-size: 60px;
-      margin-bottom: 0;
-      font-weight: 700;
+      font-size: 45px;
+      margin-bottom: 60px;
+      font-weight: 500;
     }
   }
 }
