@@ -1,14 +1,11 @@
 enable : true
-heading : "LOOKING FOR A SOUND ENGINEER TO MIX OR MASTER YOUR PROJECT?"
-counter_item:
-  - title: "Missed phone calls"
-    number: "53 +"
+heading : "READY TO DISCUSS A PROJECT?"
+generic_blurb:
+  - title: "Email"
+    text: "info@ripplestud.io"
 
-  - title: "Unsolicited offers from foreign Web developers"
-    number: "46 +"
+  - title: "International toll free number (North America)"
+    text: "+1 (877) 710-1557"
 
-  - title: "Hours spent on choosing the fonts for this page"
-    number: "5 +"
-
-  - title: "Total payout from Spotify streams"
-    number: "0,43 $ +"
+  - title: "Local canadian number (text or call)"
+    text: "(514) 577-5588"

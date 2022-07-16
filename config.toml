@@ -34,7 +34,7 @@ summarylength = 25
     url     = "blog"
     weight  = 5
   [[menu.nav]]
-    name    = "Get in touch"
+    name    = "Contact"
     url     = "contact"
     weight  = 6
 
@@ -67,7 +67,7 @@ summarylength = 25
   # Navbar Action Button
   [params.navAction]
     status  = true
-    name    = "Get in touch"
+    name    = "Contact"
     url     = "contact"
   
 
@@ -79,7 +79,7 @@ summarylength = 25
     tagline               = "Translating your vision into engaging stories"
     primary_button        = "Listen"
     primary_button_url    = "music"
-    secondary_button      = "Get in touch"
+    secondary_button      = "Contact"
     secondary_button_url  = "contact"
 
   [params.portfolio]
