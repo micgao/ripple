@@ -1,11 +1,11 @@
 enable : true
-heading : "READY TO GET IN TOUCH?"
+heading : "READY FOR YOUR NEXT SESSION?"
 generic_blurb: 
   - title: "Email"
     body: "info@ripplestud.io"
 
-  - title: "Local canadian number (text or call)"
+  - title: "Local canadian number"
     body: "(514) 577-5588"
 
-  - title: "International toll free number (North America)"
+  - title: "International toll free number"
     body: "+1 (877) 710-1557"

@@ -101,8 +101,8 @@ summarylength = 25
     [params.footer.contactInfo]
       title   = "Contact"
       address = ""
-      phone   = "514-577-5588"
       email   = "info@ripplestud.io"
+      phone   = "(514) 577-5588"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
