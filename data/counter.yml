@@ -1,7 +1,7 @@
 enable : true
 heading : "NUMBERS FOR POTENTIAL INVESTORS"
 counter_item: 
-  - title: "Missed phone calls"
+  - title: "Unintentionally missed phone calls"
     number: "53 +"
 
   - title: "Unsolicited offers from foreign Web developers"
