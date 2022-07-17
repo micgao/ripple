@@ -1,5 +1,6 @@
 enable : true
 heading : "NUMBERS FOR POTENTIAL INVESTORS"
+background_image_testimonial: "images/backgrounds/counter-background-2.jpg"
 counter_item: 
   - title: "Unintentionally missed phone calls"
     number: "53 +"
