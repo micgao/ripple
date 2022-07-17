@@ -3,17 +3,14 @@ title   : "A SELECTION OF PAST PROJECTS"
 subtitle: "Credit goes to the talented artists involved"
 background_image_testimonial: "images/backgrounds/testimonial-background.jpg"
 testimonial_item :
-  - name  : "Sample 1"
-    company_position: "Waiting for artist approval"
-    quote : > 
-            "Link 1 + Description" 
+  - track      : "Sample 1"
+    artist     : "Waiting for artist approval"
+    track_link : "Link 1 + Description" 
 
-  - name  : "Sample 2"
-    company_position: "Waiting for artist approval"
-    quote : > 
-            "Link 2 + Description" 
+  - track      : "Sample 2"
+    artist     : "Waiting for artist approval"
+    track_link : "Link 2 + Description" 
 
-  - name  : "Sample 3"
-    company_position: "Waiting for artist approval"
-    quote : > 
-            "Link 3 + Description"
+  - track      : "Sample 3"
+    artist     : "Waiting for artist approval"
+    track_link : "Link 3 + Description"

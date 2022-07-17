@@ -1,39 +1,39 @@
 {{ with .Site.Data.testimonial }}
-  {{ if .enable }}
-  <section class="site-testimonial">
+{{ if .enable }}
+<section class="site-testimonial">
     <section class="site-testimonial" style="background-image: url('{{ .background_image_testimonial }}');">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title">
-              <h2>
-                {{ .title }}
-              </h2>
-              <p>
-                {{ .subtitle }}
-              </p>
-            </div>
-          </div>
-          {{ range .testimonial_item }}
-          <div class="col-lg-4 col-md-6">
-            <div class="site-testimonial-item">
-              <div class="site-testimonial-item-header">
-                <div class=" ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2>
+                            {{ .title }}
+                        </h2>
+                        <p>
+                            {{ .subtitle }}
+                        </p>
+                    </div>
                 </div>
-                <div class="person">
-                  <h5>{{ .name }}</h5>
-                  <p>{{ .company_position }}</p>
+                {{ range .testimonial_item }}
+                <div class="col-lg-4 col-md-6">
+                    <div class="site-testimonial-item">
+                        <div class="site-testimonial-item-header">
+                            <div class="samples">
+                            </div>
+                            <div class="songs">
+                                <h5>{{ .track }}</h5>
+                                <p>{{ .artist }}</p>
+                            </div>
+                        </div>
+                        <p class="site-testimonial-item-body">
+                            {{ .track_link }}
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <p class="site-testimonial-item-body">
-                {{ .quote }}
-              </p>
+                {{ end }}
             </div>
-          </div>
-          {{ end }}
         </div>
-      </div>
     </section>
-  </section>
-  {{ end }}
+</section>
+{{ end }}
 {{ end }}
