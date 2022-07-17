@@ -1,6 +1,7 @@
 enable  : true
 title   : "A SELECTION OF PAST PROJECTS"
 subtitle: "Credit goes to the talented artists involved"
+background_image_testimonial: "images/backgrounds/testimonial-background.jpg"
 testimonial_item :
   - name  : "Sample 1"
     company_position: "Waiting for artist approval"
