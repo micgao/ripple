@@ -1,7 +1,9 @@
+# NOTE TO SELF, REMEMBER TO CREDIT THEMES/ROXO SOMEWHERE ON THE WEBSITE
+
 baseURL       = "https://ripplestud.io/"
 languageCode  = "en-CA"
 title         = "Ripple Studio | Recording Studio"
-theme         = ["roxo", "plausible-hugo"]
+theme         = ["plausible-hugo"]
 summarylength = 25
 
 # Plausible Analytics
