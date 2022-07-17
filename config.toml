@@ -48,28 +48,11 @@ summarylength = 25
   # We're using formspree.io for form handling, paste your formspree url below
   formspreeFormUrl  = "https://formspree.io/f/xnqwkkeo"
 
-  # Contact Form
-  [params.contactForm]
-    placeholder_first_name        = "First name"
-    placeholder_last_name         = "Last name"
-    placeholder_email             = "Email"
-    placeholder_project_type      = "Project type"
-    placeholder_about_the_project = "About the project"
-    send_message                  = "Send message"
-
-    [[params.contactForm.projectType]]
-      value = "rec"
-      title  = "Recording"
-    [[params.contactForm.projectType]]
-      value = "mm"
-      title  = "Mixing/Mastering"
-  
   # Navbar Action Button
   [params.navAction]
     status  = true
     name    = "Contact"
     url     = "contact"
-  
 
   # Banner Section
   [params.banner]
