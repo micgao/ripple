@@ -13,7 +13,7 @@
     }
     &-content{
       position: absolute;
-      background: $gray;
+      background: $dark-shade2;
       width: 100%;
       padding: 45px 50px;
       bottom: 0;
@@ -24,7 +24,7 @@
       }
       span{
         font-family: $secondary-font;
-        color: $primary-color;
+        color: $text-color;
         display: block;
         margin-bottom: 10px;
       }
@@ -44,7 +44,7 @@
         bottom: 40px;
         display: block;
         width: 100%;
-        color: $text-color;
+        color: $text-color-dark;
         opacity: 0;
         transform: translateY(20px);
         transition: all 0.3s $site-ease;
@@ -99,7 +99,7 @@
   }
   &-header{
     padding: 170px 0 100px;
-    background: $gray;
+    background: $body-color;
     @include tablet{
       padding: 120px 0 80px;
     }
