@@ -8,6 +8,7 @@
   background-position: center center;
   .section-title{
     margin-bottom: 40px;
+    margin-top: 5%;
   }
   @include mobile{
     padding: 50px 0;
@@ -24,8 +25,8 @@
     &-number{
       color: $text-color-dark;
       font-size: 60px;
-      margin-bottom: 55px;
-      font-weight: 550;
+      margin-bottom: 5%;
+      font-weight: 500;
     }
   }
 }

@@ -1,11 +1,15 @@
 .site-testimonial{
   width: 100%;
   height: 100%;
-  padding: 5% 0;
+  padding-bottom: 5%;
   color: $text-color-dark;
   background: $body-color;
   background-size: cover;
   background-position: center center;
+  .section-title{
+  margin-top: 10%;
+  margin-bottom: 40px;
+  }
   &-item{
     color: $text-color-dark;
     background: $dark-shade2;
