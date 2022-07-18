@@ -3,10 +3,18 @@ category = []
 date = 2022-07-11T04:00:00Z
 image = ""
 project_images = []
-title = "Past projects"
+title = "LOUDNESS"
 type = ""
-
 +++
-Past projects featuring some exceptional artists
 
-And an extra thanks for allowing me to use their music here
+### BEFORE GOING ANY FURTHER, BE AWARE OF THE FOLLOWING:
+	\
+#### 1. THE LUFS MEASURE IS ABOVE ZERO
+#### 2. YOUR SPEAKERS, HEADPHONES, OR OTHER AUDIO DEVICE WILL BE PERMANENTLY DAMAGED WITHOUT TAKING EVERY NECESSARY PRECAUTION
+#### 3. YOUR EARDRUMS WILL BE PERMANENTLY DAMAGED WITHOUT TAKING EVERY NECESSARY PRECAUTION
+#### 4. THESE ARE MADE IN THE SPIRIT OF RESEARCH AND EXPERIMENTATION
+#### 5. I AM NOT LIABLE FOR ANY DAMAGE OR HARM CAUSED BY THE CONTENT OF THE LINKS ON THIS PAGE
+	\
+### FOR THE LAST TIME, PLEASE DO NOT GO ANY FURTHER IF YOU DO NOT UNDERSTAND THE ABOVE
+	\
+Links to be posted after making sure my ass is covered legally speaking
