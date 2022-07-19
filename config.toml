@@ -82,6 +82,7 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title               = "Contact"
+      address             = "Studio location on request only"
       email               = "info@ripplestud.io"
       phone               = "(514) 577-5588"
       phone_international = "+1 (877) 710-1557"

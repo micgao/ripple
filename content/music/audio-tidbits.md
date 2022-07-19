@@ -15,6 +15,5 @@ type = ""
 #### 4. THESE ARE MADE IN THE SPIRIT OF RESEARCH AND EXPERIMENTATION
 #### 5. I AM NOT LIABLE FOR ANY DAMAGE OR HARM CAUSED BY THE CONTENT OF THE LINKS ON THIS PAGE
 	\
-### FOR THE LAST TIME, PLEASE DO NOT GO ANY FURTHER IF YOU DO NOT UNDERSTAND THE ABOVE
-	\
-Links to be posted after making sure my ass is covered legally speaking
+
+Probably should check liability before posting links
