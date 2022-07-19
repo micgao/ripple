@@ -1,9 +1,9 @@
 .site-about{
   &-header{
-    padding-top: 80px;
+    padding-top: 9%;
     background-color: $body-color;
     @include mobile{
-      padding-top: 60px;
+      padding-top: 7%;
       text-align: center;
     }
   }
@@ -14,8 +14,8 @@
   }
   &-company{
     background: $primary-color;
-    width: 40%;
-    padding: 70px 38px;
+    width: 35%;
+    padding: 70px 28px;
     @include desktop{
       width: 100%;
       margin-bottom: 20px;
