@@ -15,7 +15,7 @@
   &-company{
     background: $body-color;
     width: 40%;
-    padding: 15% 0;
+    padding: 5% 0;
     @include desktop{
       width: 100%;
       margin-bottom: 30px;
@@ -23,7 +23,7 @@
   }
   &-description{
     width: 60%;
-    padding-left: 50px;
+    padding-left: 5%;
     @include desktop{
       width: 100%;
       padding: 0 38px;
