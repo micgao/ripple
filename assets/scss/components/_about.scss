@@ -1,9 +1,9 @@
 .site-about{
   &-header{
-    padding-top: 9%;
+    padding-top: 10%;
     background-color: $body-color;
     @include mobile{
-      padding-top: 7%;
+      padding-top: 8%;
       text-align: center;
     }
   }
@@ -13,20 +13,12 @@
     flex-wrap: wrap;
   }
   &-company{
-    background: $primary-color;
-    width: 35%;
-    padding: 70px 28px;
+    background: $body-color;
+    width: 40%;
+    padding: 15% 0;
     @include desktop{
       width: 100%;
-      margin-bottom: 20px;
-    }
-    h1{
-      color: $white;
-      font-weight: 400;
-      font-size: 25px;
-      line-height: 60px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
+      margin-bottom: 30px;
     }
   }
   &-description{
@@ -39,6 +31,7 @@
     p{
       font-size: 25px;
       font-weight: 300;
+      color: $text-color-dark;
       margin-bottom: 0;
     }
   }
