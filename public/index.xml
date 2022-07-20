@@ -1,29 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ripple Studio | Recording Studio</title>
-    <link>https://ripplestud.io/</link>
-    <description>Recent content on Ripple Studio | Recording Studio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-CA</language>
-    <lastBuildDate>Mon, 11 Jul 2022 02:45:06 -0400</lastBuildDate><atom:link href="https://ripplestud.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ripple Manifesto</title>
-      <link>https://ripplestud.io/blog/the-ripple-manifesto/</link>
-      <pubDate>Mon, 11 Jul 2022 02:45:06 -0400</pubDate>
-      
-      <guid>https://ripplestud.io/blog/the-ripple-manifesto/</guid>
-      <description>*Nothing to do with the communist one</description>
-    </item>
-    
-    <item>
-      <title>LOUDNESS</title>
-      <link>https://ripplestud.io/music/audio-tidbits/</link>
-      <pubDate>Mon, 11 Jul 2022 04:00:00 +0000</pubDate>
-      
-      <guid>https://ripplestud.io/music/audio-tidbits/</guid>
-      <description>BEFORE GOING ANY FURTHER, BE AWARE OF THE FOLLOWING: \1. THE LUFS MEASURE IS ABOVE ZERO 2. YOUR SPEAKERS, HEADPHONES, OR OTHER AUDIO DEVICE WILL BE PERMANENTLY DAMAGED WITHOUT TAKING EVERY NECESSARY PRECAUTION 3.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ripple Studio | Recording Studio</title><link>https://ripplestud.io/</link><description>Recent content on Ripple Studio | Recording Studio</description><generator>Hugo -- gohugo.io</generator><language>en-CA</language><lastBuildDate>Mon, 11 Jul 2022 02:45:06 -0400</lastBuildDate><atom:link href="https://ripplestud.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Ripple Manifesto</title><link>https://ripplestud.io/blog/the-ripple-manifesto/</link><pubDate>Mon, 11 Jul 2022 02:45:06 -0400</pubDate><guid>https://ripplestud.io/blog/the-ripple-manifesto/</guid><description>*Nothing to do with the communist one</description></item><item><title>LOUDNESS</title><link>https://ripplestud.io/music/audio-tidbits/</link><pubDate>Mon, 11 Jul 2022 04:00:00 +0000</pubDate><guid>https://ripplestud.io/music/audio-tidbits/</guid><description>BEFORE GOING ANY FURTHER, BE AWARE OF THE FOLLOWING: \
+1. THE LUFS MEASURE IS ABOVE ZERO 2. YOUR SPEAKERS, HEADPHONES, OR OTHER AUDIO DEVICE WILL BE PERMANENTLY DAMAGED WITHOUT TAKING EVERY NECESSARY PRECAUTION 3.</description></item></channel></rss>
