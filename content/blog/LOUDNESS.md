@@ -1,11 +1,11 @@
-+++
-category = []
-date = 2022-07-11T04:00:00Z
-image = ""
-project_images = []
-title = "LOUDNESS"
-type = ""
-+++
+---
+title: LOUDNESS
+date: 2022-07-11T02:45:06-04:00
+list: 2
+image: ''
+feature_image: ''
+author: Michael G
+---
 
 ### BEFORE GOING ANY FURTHER, BE AWARE OF THE FOLLOWING:
 	\
