@@ -12,7 +12,7 @@
       }
     }
     &-content{
-      position: absolute;
+      position: relative;
       background: $dark-shade2;
       width: 100%;
       padding: 45px 50px;
@@ -98,7 +98,7 @@
     }
   }
   &-header{
-    padding: 170px 0 100px;
+    padding: 170px 100px;
     background: $body-color;
     @include tablet{
       padding: 120px 0 80px;
