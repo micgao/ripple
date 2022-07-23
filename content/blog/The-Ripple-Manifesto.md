@@ -6,4 +6,5 @@ feature_image: ''
 author: Michael G
 
 ---
-**_*Nothing to do with the communist one_**
+
+Not the communist kind
