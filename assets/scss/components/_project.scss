@@ -43,7 +43,7 @@
         bottom: 40px;
         display: block;
         width: 100%;
-        color: $text-color-dark;
+        color: $primary-color;
         opacity: 0;
         transform: translateY(20px);
         transition: all 0.3s $site-ease;
@@ -97,10 +97,10 @@
     }
   }
   &-header{
-    padding: 170px 100px;
+    padding: 150px 0 2%;
     background: $body-color;
     @include tablet{
-      padding: 120px 0 80px;
+      padding: 120px 0 10%;
     }
     &-content{
       h1{

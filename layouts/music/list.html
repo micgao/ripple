@@ -1,17 +1,18 @@
 {{ define "main" }}
 
 <section class="site-project-header">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 text-center">
-        <div class="site-project-header-content">
-          <h1>
-            {{ .Title | safeHTML }}
-          </h1>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="site-project-header-content">
+                    <h1>{{ .Title }}</h1>
+                    <p>
+                        {{ .Params.description }}
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </section>
 
 <section class="site-project" id="project">
@@ -21,7 +22,10 @@
       <div class="col-lg-6">
         <div class="site-project-item">
           <div class="site-project-item-content">
-            <h3>{{ .Title }}</h3>
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            <p>
+              {{ .Summary }}
+            </p>
             <a href="{{ .Permalink }}" class="read-more">View project</a>
           </div>
         </div>
