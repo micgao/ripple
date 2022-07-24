@@ -112,7 +112,7 @@ summarylength = 25
           url  = "#"
         [[params.footer.social.link]]
           name = "SPCA"
-          url  = "#"
+          url  = "https://ontariospca.ca"
         [[params.footer.social.link]]
           name = "Source code"
           url  = "https://gitlab.com/micgao/ripple"
