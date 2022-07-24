@@ -1,0 +1,38 @@
+.site-services{
+  &-header{
+    padding-top: 10%;
+    background-color: $body-color;
+    @include mobile{
+      padding-top: 8%;
+      text-align: center;
+    }
+  }
+  &-wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &-company{
+    background: $body-color;
+    width: 40%;
+    padding: 5% 0;
+    @include desktop{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  &-description{
+    width: 60%;
+    padding-left: 5%;
+    @include desktop{
+      width: 100%;
+      padding: 0 38px;
+    }
+    p{
+      font-size: 25px;
+      font-weight: 300;
+      color: $text-color-dark;
+      margin-bottom: 0;
+    }
+  }
+}
